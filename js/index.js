@@ -5,6 +5,10 @@ fleche.addEventListener('click', function() {
   menu.classList.toggle('menu-ouvert');
 });
 
+
+
+
+
 var imagesDeFond = document.querySelectorAll('.slide');
 var nbImagesDeFond = imagesDeFond.length;
 var imageDeFondActuelle = Math.floor(Math.random() * nbImagesDeFond);
