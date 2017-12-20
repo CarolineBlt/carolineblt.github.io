@@ -45,7 +45,8 @@ body {
   position: absolute;
   bottom: 16px;
   right:calc(100% / 2 - 850px / 2);
-  max-width: 300px;
+  transform: translate(100%);
+  max-width: 200px;
   padding: 8px;
   background: white;
 }
@@ -55,6 +56,14 @@ body {
     right: 8px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .slide p {
+    transform : none;
+  }
+}
+
+
 
 h1{
   font-family: 'Chivo';
