@@ -1,4 +1,4 @@
-var fleche = document.querySelector('.menu-ouvrir');
+var fleche = document.querySelector('.menu');
 var menu = document.querySelector('.menu');
 
 fleche.addEventListener('click', function() {
