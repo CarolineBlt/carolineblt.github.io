@@ -184,7 +184,7 @@ h1{
   width:100%;
   max-width: 850px;
   margin:auto;
-  padding-top: 5em;
+  padding-top: 6em;
 }
 
 .projets .Projet h3 {
@@ -215,6 +215,7 @@ h1{
 .projet .images figure { /* 2 colonnes */
   width: calc(50% - 32px);
   margin:16px; /* 2x le margin doit faire une partie du width (16 + 16 = 32) */
+
 }
 
 .projets .col { /* 3 colonne */
@@ -248,4 +249,6 @@ img {
   .infos .gauche, .infos .droite {
     flex: 0 0 100%;
   }
-}
+
+
+  
