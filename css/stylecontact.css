@@ -113,7 +113,7 @@ h1{
   width:100%;
   max-width: 850px;
   margin:auto;
-  padding-top: 6em;
+  padding-top: 5em;
 }
 
 .projets .Projet h3 {
@@ -211,4 +211,15 @@ img {
 
 h2 {
   font-size: 19px;
+}
+
+
+.choixlangue {
+color:#353534;
+text-align: right;
+font-size: 14px;
+cursor: pointer;
+margin-top: 15px;
+margin-right: 15px;
+
 }
