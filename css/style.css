@@ -252,7 +252,7 @@ img {
   .infos {
     flex-wrap: wrap;
   }
-  .infos .gauche, .infos .droite {
+  .infos .gauche, .infos .droite, {
     flex: 0 0 100%;
   }
 }
