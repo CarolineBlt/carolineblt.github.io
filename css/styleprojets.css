@@ -8,6 +8,8 @@ body {
   font-family:'chivo';
   background-color: white;
   transition: background .5s;
+  position: relative;
+  padding-bottom: 16px;
 }
 
 
@@ -253,6 +255,11 @@ img {
   }
   .infos .gauche, .infos .droite {
     flex: 0 0 100%;
+  }
+  .choixlangue { /* A RECOPIER AUTRE !!!!!*/
+    position: absolute;
+    bottom: 0;
+    left: 16px;
   }
 }
 

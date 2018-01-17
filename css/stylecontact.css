@@ -9,6 +9,8 @@ body {
   background-color: white;
   transition: background .5s;
   background-color: #afcfec;
+  position: relative;
+  padding-bottom: 16px;
 }
 
 
@@ -159,13 +161,41 @@ img {
   max-width: 100%;
   height: auto;
 }
+.projets .colcontact { /* 3 colonne */
+  width: calc(33% - 32px);
+  margin:16px; /* 2x le margin doit faire une partie du width (16 + 16 = 32) */
+  margin-top: 13%;
+}
 
+.projets .colcontacttx { /* 3 colonne */
+  width: calc(33% - 32px);
+  margin:16px; /* 2x le margin doit faire une partie du width (16 + 16 = 32) */
+  margin-top: 14%;
+}
+.pagecontact {
+  display: flex;
+}
 @media screen and (max-width: 650px) {   /* pour le responsive */
   .infos {
     flex-wrap: wrap;
   }
+  .mobile-cache {
+    display: none;
+  }
   .infos .gauche, .infos .droite {
     flex: 0 0 100%;
+  }
+  .pagecontact {
+    display: flex;
+    flex-direction: column;
+  }
+  .projets .colcontact, .projets .colcontacttx {
+    width:100%;
+  }
+  .choixlangue { /* A RECOPIER AUTRE !!!!!*/
+    position: absolute;
+    bottom: 0;
+    left: 16px;
   }
 }
 
@@ -197,17 +227,7 @@ img {
   font-size: 27px;
 }
 
-.projets .colcontact { /* 3 colonne */
-  width: calc(33% - 32px);
-  margin:16px; /* 2x le margin doit faire une partie du width (16 + 16 = 32) */
-  margin-top: 13%;
-}
 
-.projets .colcontacttx { /* 3 colonne */
-  width: calc(33% - 32px);
-  margin:16px; /* 2x le margin doit faire une partie du width (16 + 16 = 32) */
-  margin-top: 14%;
-}
 
 h2 {
   font-size: 19px;
