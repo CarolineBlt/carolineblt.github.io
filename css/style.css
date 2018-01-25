@@ -257,8 +257,10 @@ img {
   }
   .infos .gauche, .infos .droite, {
     flex: 0 0 100%;
+
 }
-.choixlangue { /* A RECOPIER AUTRE !!!!!*/
+
+.choixlangue {
   position: absolute;
   bottom: 0;
   left: 16px;
@@ -284,9 +286,25 @@ margin-right: 15px;
 }
 
 
-
-
-
 .projet .images figure.footer {
   font-size: 12px;
+}
+
+
+
+@media screen and (max-width: 320px) {   /* pour le responsive */
+  .infos {
+    flex-wrap: wrap;
+    margin-top: 27px;
+  }
+  .infos .gauche, .infos .droite, {
+    flex: 0 0 100%;
+
+}
+
+.choixlangue {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
 }
