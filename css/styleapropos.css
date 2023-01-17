@@ -1,5 +1,5 @@
 a{
-  color: black;
+  color: black; 
   text-decoration: none;
 }
 
@@ -10,7 +10,7 @@ body {
   transition: background .5s;
   position: relative;
   padding-bottom: 16px;
-  background-color: #ffcdbd;
+  background-color: #ffefde; /* couleur fond = beige */
 }
 
 
