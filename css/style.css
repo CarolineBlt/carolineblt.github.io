@@ -1,5 +1,5 @@
 a{
-  color: #353534; /* dans cartel page accueil */
+  color: #491a8f; /* dans cartel page accueil */
   text-decoration: none;
 }
 
@@ -162,7 +162,7 @@ h1{
   border-bottom:3px solid #491a8f;
 }
 .menu a {
-  color:inherit;
+  color:inherit;/* couleur titre dans menu deroulant */
   text-decoration:none;
   display: block;
 }

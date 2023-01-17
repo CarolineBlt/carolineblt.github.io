@@ -1,5 +1,5 @@
 a{
-  color: #491a8f;
+  color: #491a8f; /*couleur du texte */
   text-decoration: none;
 }
 
@@ -85,7 +85,7 @@ h1{
   border-bottom:3px solid #491a8f;
 }
 .menu a {
-  color:inherit;
+  color:#491a8f;
   text-decoration:none;
   display: block;
 }
