@@ -1,5 +1,5 @@
 a{
-  color: black; 
+  color: black;
   text-decoration: none;
 }
 
@@ -77,12 +77,12 @@ h1{
 
 .menu li {
   list-style-type: none;
-  color:black;
+  color:#491a8f;
   padding:8px 16px;  /* espace séparant nom des projets entre eux et avec le bord */
 }
 
 .menu-liens { /* ligne séparant les 2 catégories dans menu déroulant */
-  border-bottom:3px solid black;
+  border-bottom:3px solid #491a8f;
 }
 .menu a {
   color:inherit;
@@ -91,7 +91,7 @@ h1{
 }
 
 .menu li:hover {   /* passage en négatif quand on passe la souris sur la catégorie */
-  background:black;
+  background:#491a8f;
   color:white;
 }
 
@@ -100,7 +100,7 @@ h1{
 }
 
 .menu.menu-ouvert .menu-visible { /* ligne séparant titre du menu déroulant */
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #491a8f;
 }
 
 .menu-projets ul {

@@ -107,7 +107,7 @@ h1{
 .menu {
   position:absolute;
   z-index:1;
-  background:white;
+  background:white; /* couleur fond bandeau */
   border:3px solid;
   width: calc(100% - 16px);
   max-width: 850px; /* longueur bandeau */
@@ -154,12 +154,12 @@ h1{
 
 .menu li {
   list-style-type: none;
-  color:black;
+  color:#491a8f; /*couleur font menu deroulant = violet */
   padding:8px 16px;  /* espace séparant nom des projets entre eux et avec le bord */
 }
 
 .menu-liens { /* ligne séparant les 2 catégories dans menu déroulant */
-  border-bottom:3px solid black;
+  border-bottom:3px solid #491a8f;
 }
 .menu a {
   color:inherit;
@@ -168,7 +168,7 @@ h1{
 }
 
 .menu li:hover {   /* passage en négatif quand on passe la souris sur la catégorie */
-  background:black;
+  background:#491a8f;
   color:white;
 }
 
@@ -177,7 +177,7 @@ h1{
 }
 
 .menu.menu-ouvert .menu-visible { /* ligne séparant titre du menu déroulant */
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #491a8f;
 }
 
 .menu-projets ul {
