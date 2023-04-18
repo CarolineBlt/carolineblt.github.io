@@ -84,7 +84,7 @@ h1{
   border-bottom:3px solid black;
 }
 .menu a {
-  color:#491a8f; /* couleur titre contact dans menu déroulant */
+  color:inherit; /* couleur titre contact dans menu déroulant */
   text-decoration:none;
   display: block;
 }
