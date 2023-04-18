@@ -19,8 +19,8 @@ body {
 
 h1{
   font-family: 'Source Serif Pro';
-  font-weight: 700;
-  font-style: italic;; /* nul > pour enlever italic */
+  font-weight: 400; /* epaisseur */
+  font-style: italic;;
 }
 
 /* fin boucle d'image de fond ACCUEIL */
