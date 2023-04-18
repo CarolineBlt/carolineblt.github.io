@@ -5,7 +5,7 @@ a{
 
 
 body {
-  font-family:'chivo';
+  font-family:'Source Serif Pro';
   background-color: white;
   transition: background .5s;
   position: relative;
@@ -18,9 +18,9 @@ body {
 
 
 h1{
-  font-family: 'Chivo';
+  font-family: 'Source Serif Pro';
   font-weight: 700;
-  font-style:italic;
+  font-style: italic;; /* nul > pour enlever italic */
 }
 
 /* fin boucle d'image de fond ACCUEIL */
