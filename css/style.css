@@ -70,7 +70,7 @@ body {
 
 h1{
   font-family: 'Source Serif Pro';
-  font-weight: 700;
+  font-weight: 400;
   font-style:italic;
 }
 
@@ -105,9 +105,10 @@ h1{
 
 /* menu déroulant */
 .menu {
+  font-family: 'Source Serif Pro';
   position:absolute;
   z-index:1;
-  background:white; /* couleur fond bandeau */
+  background: white; /* couleur fond bandeau */
   border:3px solid;
   width: calc(100% - 16px);
   max-width: 850px; /* longueur bandeau */

@@ -5,7 +5,7 @@ a{
 
 
 body {
-  font-family:'Source Serif Pro';
+  font-family:"Source Serif Pro";
   background-color: white;
   transition: background .5s;
   position: relative;
@@ -18,7 +18,7 @@ body {
 
 
 h1{
-  font-family: 'Source Serif Pro';
+  font-family: "Source Serif Pro";
   font-weight: 400; /* epaisseur */
   font-style: italic;;
 }
@@ -79,7 +79,7 @@ h1{
   list-style-type: none;
   color:#491a8f;
   padding:8px 16px;  /* espace séparant nom des projets entre eux et avec le bord */
-  
+
 }
 
 .menu-liens { /* ligne séparant les 2 catégories dans menu déroulant */
