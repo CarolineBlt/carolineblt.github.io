@@ -79,6 +79,7 @@ h1{
   list-style-type: none;
   color:#491a8f;
   padding:8px 16px;  /* espace séparant nom des projets entre eux et avec le bord */
+  
 }
 
 .menu-liens { /* ligne séparant les 2 catégories dans menu déroulant */
