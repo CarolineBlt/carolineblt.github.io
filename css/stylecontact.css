@@ -6,6 +6,7 @@ a{
 
 body {
   font-family:'Source Serif Pro';
+  color : pink;
   background-color: white;
   transition: background .5s;
   background-color: #afcfec;
@@ -60,7 +61,8 @@ h1{
   font-style: italic;
   font-weight: 200;
   }
-  
+
+
 .menu-ouvert .menu-ouvrir {
   transform: rotate(180deg);
   top:16px;
@@ -87,7 +89,7 @@ h1{
 }
 
 .menu-liens { /* ligne séparant les 2 catégories dans menu déroulant */
-  border-bottom:3px solid black;
+  border-bottom:3px solid pink;
 }
 .menu a {
   color:pink; /* couleur titre contact dans menu déroulant */
@@ -105,7 +107,7 @@ h1{
 }
 
 .menu.menu-ouvert .menu-visible { /* ligne séparant titre du menu déroulant */
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid pink;
 }
 
 .menu-projets ul {

@@ -6,6 +6,7 @@ a{
 
 body {
   font-family:"Source Serif Pro";
+  color : pink;
   background-color: white;
   transition: background .5s;
   position: relative;
@@ -89,7 +90,7 @@ h1{
 }
 
 .menu-liens { /* ligne séparant les 2 catégories dans menu déroulant */
-  border-bottom:3px solid #491a8f;
+  border-bottom:3px solid pink;
 }
 .menu a {
   color:#491a8f; /*couleur titre a propos dans menu deroulant */
@@ -107,7 +108,7 @@ h1{
 }
 
 .menu.menu-ouvert .menu-visible { /* ligne séparant titre du menu déroulant */
-  border-bottom: 3px solid #491a8f;
+  border-bottom: 3px solid pink;
 }
 
 .menu-projets ul {
