@@ -6,6 +6,7 @@ a{
 
 body {
   font-family:'Source Serif Pro';
+  color : orange; /* couleur tx explicatif projet + contour et fleche bandeau */
   background-color: white;
   transition: background .5s;
   position: relative;
@@ -72,6 +73,7 @@ h1{
   font-family: 'Source Serif Pro';
   font-weight: 400;
   font-style:italic;
+  color: blue; /*couleur Caroline Bultey sur page accueil */
 }
 
 #fond img {
@@ -134,6 +136,12 @@ h1{
   font-size: 35px;
 }
 
+.menu-ouvert {
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  font-weight: 200;
+  }
+
 .menu-ouvert .menu-ouvrir {
   transform: rotate(180deg);
   top:16px;
@@ -163,13 +171,13 @@ h1{
   border-bottom:3px solid #491a8f;
 }
 .menu a {
-  color:inherit;/* couleur titre dans menu deroulant */
+  color:#491a8f;/* couleur titre dans menu deroulant */
   text-decoration:none;
   display: block;
 }
 
-.menu li:hover {   /* passage en négatif quand on passe la souris sur la catégorie */
-  background:#491a8f;
+.menu li:hover {   /* passage en négatif ou surlignage quand on passe la souris sur la catégorie */
+  background:pink;
   color:white;
 }
 

@@ -1,6 +1,6 @@
 a{
 
-  color: #491a8f;
+  color: black;
   text-decoration: none;
 }
 
@@ -133,6 +133,13 @@ h1{
   font-size: 35px;
 }
 
+.menu-ouvert {
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  font-weight: 200;
+  }
+
+  
 .menu-ouvert .menu-ouvrir {
   transform: rotate(180deg);
   top:16px;
@@ -162,13 +169,13 @@ h1{
   border-bottom:3px solid #491a8f;
 }
 .menu a {
-  color:inherit; /*couleur titre projet dans menu déroulant */
+  color:#491a8f; /*couleur titre projet dans menu déroulant */
   text-decoration:none;
   display: block;
 }
 
 .menu li:hover {   /* passage en négatif quand on passe la souris sur la catégorie */
-  background:#491a8f;
+  background:pink;
   color:white;
 }
 
